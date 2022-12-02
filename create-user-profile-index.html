@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Comforter Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap' rel="stylesheet">
+    <title>Create User Profile</title>
+    <script src="https://kit.fontawesome.com/1308d9aea0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Food Truck Finder styles.css">
+</head>
+<body>
+    <header >
+        <img class="main-header">
+        <h1>Food Truck Finder</h1>
+        <nav>
+            <ul class="nav-icon">
+                <li><a href="cart_index.html"><i class="fa-solid fa-cart-plus" id="cart"></i></a></li>
+                <li><a href="create-user-profile-index.html"><i class="fa-solid fa-user" id="user" ></i></a></li>
+                <li><a href="food-truck-finder-home-screen-index.html"><i class="fa-solid fa-utensils" id="homepage"></i></a></li>
+            </ul>
+            <div class ="search-box"><input type="search" name="search" placeholder="Search Food Trucks"></div>
+        </nav> 
+    </header>
+   
+    <!-- copied from the home page -->
+    <!-- created 2 buttons to link the pages -->
+    
+    <br>
+     <div class="user-img"><img src="data:image/png;base64,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"> 
+    </div>
+    <br>
+    <!-- created a form to create a user -->
+    <form class="create-user-form">
+        <label for="firstName">First Name</label>
+            <input type ="text" id ="firstName"> <br>
+        <label for="lastName">Last Name</label> 
+            <input type ="text" id = "lastName" > <br>
+        <label for="email">Email</label> 
+            <input type = "text" id ="email"> <br>
+        <label for="userName">User Name</label>     
+            <input type = "text" id ="userName"> <br>
+        <label for="password">Password</label>
+            <input type="password" id ="password"> <br>
+        
+            <input id="submit-button" type="submit" name="Submit" placeholder="Submit">
+
+    </form><br>
+    <h4>Like Food Truck Finder on social media</h4>
+    <div class="social">
+        <a href="https://mobile.twitter.com/foodtrckfinder"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="https://www.facebook.com/foodtruckfinderbham"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/foodtruckfinderusa/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+    </div>
+</body>
+</html>
